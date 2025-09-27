@@ -1,0 +1,15 @@
+Classification Report (Test Data):
+               precision    recall  f1-score   support
+
+           0       0.94      0.91      0.92        33
+           1       0.90      0.93      0.91        28
+
+    accuracy                           0.92        61
+   macro avg       0.92      0.92      0.92        61
+weighted avg       0.92      0.92      0.92        61
+
+Test AUC: 0.9588744588744589
+
+
+Baseline mean AUC: 0.8990886042969375
+Tuned mean AUC: 0.9092968374218374
