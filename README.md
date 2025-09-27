@@ -13,7 +13,7 @@ This project analyzes and predicts heart disease risks using machine learning. I
 
 ## 📌 Table of Contents
 
-- [Overview](##🌟Overview)
+- [Overview](##🌟_Overview)
 
 - [Dataset](##dataset)
 
