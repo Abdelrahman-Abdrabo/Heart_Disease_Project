@@ -7,35 +7,7 @@ This project analyzes and predicts heart disease risks using machine learning. I
 
   
 
----
-
-  
-
-## 📌 Table of Contents
-
-- [Overview](#overview)
-
-- [Dataset](#dataset)
-
-- [Project Workflow](#project-workflow)
-
-- [Model Development](#model-development)
-
-- [Deployment (Streamlit UI)](#deployment-streamlit-ui)
-
-- [Installation](#installation)
-
-- [Usage](#usage)
-
-- [Project Structure](#project-structure)
-
-- [Team](#team)
-
-  
-
----
-
-  
+---  
 
 ## 🌟 Overview
 
@@ -86,72 +58,52 @@ The pipeline:
 ### Phase 2.x Steps
 
 1. **Data Preprocessing**
-
-   - Handling missing values
-
-   - Encoding categorical features (One-Hot Encoding)
-
-   - Binarizing the target (`num > 0 → 1`)
-
-   - Standardization (scaling)
+    - Handling missing values
+    - Encoding categorical features (One-Hot Encoding)
+    - Binarizing the target (`num > 0 → 1`)
+    - Standardization (scaling)
 
   
 
 2. **Dimensionality Reduction**
-
-   - Principal Component Analysis (PCA)
-
-   - Explained variance ratio & visualization
+    - Principal Component Analysis (PCA)
+    - Explained variance ratio & visualization
 
   
 
 3. **Feature Selection**
+    - Feature importance ranking
+    - Final selected features (16 best predictors)
 
-   - Feature importance ranking
-
-   - Final selected features (16 best predictors)
-
-  
 
 4. **Supervised Learning**
-
-   - Logistic Regression, Decision Tree, Random Forest, SVM
-
-   - Performance comparison using Accuracy, Precision, Recall, F1-score, AUC
-
+    - Logistic Regression, Decision Tree, Random Forest, SVM
+    - Performance comparison using Accuracy, Precision, Recall, F1-score, AUC
   
 
 5. **Unsupervised Learning**
 
-   - KMeans clustering
-
-   - Elbow method 
+    - KMeans clustering
+    - Elbow method 
 
   
 
 6. **Hyperparameter Tuning**
-
-   - GridSearchCV & RandomizedSearchCV
-
-   - Best model: **SVM (RBF kernel)** with optimized `C` and `gamma`
+    - GridSearchCV & RandomizedSearchCV
+    - Best model: **SVM (RBF kernel)** with optimized `C` and `gamma`
 
   
 
 7. **Model Export**
-
-   - End-to-end pipeline (preprocessing + feature selection + scaling + model)
-
-   - Saved as `final_pipeline.pkl` with `joblib`
+    - End-to-end pipeline (preprocessing + feature selection + scaling + model)
+    - Saved as `final_pipeline.pkl` with `joblib`
 
   
 
 8. **Deployment (Streamlit UI)**
-
-   - Simple form-based web interface
-
-   - User inputs patient data
-
-   - Model predicts `Disease` vs `No Disease` with probability
+    - Simple form-based web interface
+    - User inputs patient data
+    - Model predicts `Disease` vs `No Disease` with probability
 
   
 
