@@ -13,25 +13,21 @@ This project analyzes and predicts heart disease risks using machine learning. I
 
 ## 📌 Table of Contents
 
-- [Overview](#overview)
+- [Overview](##overview)
 
-- [Dataset](#dataset)
+- [Dataset](##dataset)
 
-- [Project Workflow](#project-workflow)
+- [Project Workflow](##project-workflow)
 
-- [Model Development](#model-development)
+- [Model Development](##model-development)
 
-- [Deployment (Streamlit UI)](#deployment-streamlit-ui)
+- [Deployment (Streamlit UI)](##deployment-streamlit-ui)
 
-- [Installation](#installation)
+- [Installation](##installation)
 
-- [Usage](#usage)
+- [Usage](##usage)
 
-- [Project Structure](#project-structure)
-
-- [Team](#team)
-
-  
+- [Project Structure](##project-structure)
 
 ---
 
